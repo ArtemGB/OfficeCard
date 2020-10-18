@@ -36,6 +36,10 @@
         font-size: 16px;
         line-height: 25px;
     }
+
+    p.Paragraph{
+        text-indent: "20px";
+    }
 }
 
 /*Планшеты*/
@@ -75,13 +79,17 @@
         font-size: 16px;
         line-height: 25px;
     }
+
+    p.Paragraph{
+        text-indent: "20px";
+    }
 }
 
 /*Компы*/
 @media (min-width: 992px) {
 
     .item-params-label {
-        color: rgba(0,0,0,.44);
+        color: rgba(0,0,0,.49);
     }
 
     .item-params-list-item {
@@ -107,11 +115,15 @@
     .item-view-block {
         margin: 0 20px;
         padding: 20px 0;
-        border-top: 1px solid #e0e0e0;
+        border-top: 1px solid #5C5C5C;
     }
 
     .item-params {
         font-size: 16px;
         line-height: 25px;
+    }
+
+    p.Paragraph{
+        text-indent: "1.5em";
     }
 }

@@ -1,0 +1,17 @@
+﻿@media (min-width: 576px) {
+   p.CarouselLabel{
+       visibility: hidden;
+   }
+}
+
+@media (min-width: 768px) {
+    p.CarouselLabel{
+        visibility: visible;
+    }
+}
+
+@media (min-width: 992px) {
+    p.CarouselLabel{
+        visibility: visible;
+    }
+}
