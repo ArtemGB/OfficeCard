@@ -1,5 +1,6 @@
 ﻿import React, { Component } from 'react';
-import { DemoCarousel } from './Carousel';
+//import { DemoCarousel } from './Carousel';
+import { MyGallery } from './ImagesCarousel';
 import './Home.css'
 
 export class Home extends Component {
@@ -12,11 +13,14 @@ export class Home extends Component {
                 <h3 align="center">Офис в центре Москвы</h3>
 
                 <div align="center">
-                    <DemoCarousel />
+                    {/*<DemoCarousel />*/}
+                    <MyGallery />
+                </div>
+                <div className="telephoneNumbers">
+                    <h4>8 916 350 13 60</h4>
+                    <h4>8 963 782 62 64</h4>
                 </div>
 
-                <h4>8 916 350 13 60</h4>
-                <h4>8 963 782 62 64</h4>
 
                 <p align="center"><b><b><h4>161 кв.м. 270 000 в месяц</h4></b></b></p>
                 <p align="center"><b><b><h4>Москва, ЦАО, р-н Басманный, Мясницкая ул., 22/стр1</h4></b></b></p>
@@ -60,8 +64,10 @@ export class Home extends Component {
                     В ухоженном дворе предоставляются два парковочных места для авто,
                     закреплённые за помещением. После косметического ремонта.
     </p>
-                <br />
-                <p>Предоставляется юридический адрес. <b>Депозит - от 1 месяца.</b></p>
+
+                <p>Предоставляется юридический адрес.</p>
+                <p><b>Депозит - от 1 месяца.</b></p>
+
                 <h4>Помещения:</h4>
                 <ul>
                     <li>
@@ -73,6 +79,9 @@ export class Home extends Component {
                     </li>
                     <li>
                         <b>Помещение 7</b> – кабинет 7,3 кв.м. с окном во внутренний двор
+                    </li>
+                    <li>
+                        <b>Помещение 7а</b> – кабинет 7,4 кв.м с окном во внутренний двор
                     </li>
                     <li>
                         <b>Помещение 8</b> –  кабинет 16,4 кв.м. с окном во внутренний двор
@@ -92,13 +101,13 @@ export class Home extends Component {
                                 <span class="item-params-label">Налог УСН:</span> (упрощённая система налогообложения)
                     </li>
                             <li class="item-params-list-item">
-                                <span class="item-params-label">Обеспечительный платеж:</span> 285 000 ₽
+                                <span class="item-params-label">Обеспечительный платеж:</span> 270 000 ₽
                     </li>
                             <li class="item-params-list-item">
                                 <span class="item-params-label">Коммунальные платежи:</span> Включены
                     </li>
                             <li class="item-params-list-item">
-                                <span class="item-params-label">Эксплуатационные расходы:</span> Не ключены
+                                <span class="item-params-label">Эксплуатационные расходы:</span> Не включены
                     </li>
                             <li class="item-params-list-item">
                                 <span class="item-params-label">Предоплата:</span> 1 месяц
@@ -116,7 +125,13 @@ export class Home extends Component {
                                 <span class="item-params-label">Арендные каникулы:</span> Нет
                     </li>
                             <li class="item-params-list-item">
+                                <span class="item-params-label">Парковка:</span> Наземная
+                    </li>
+                            <li class="item-params-list-item">
                                 <span class="item-params-label">Стоимость парковки:</span> Бесплатно
+                    </li>
+                            <li class="item-params-list-item">
+                                <span class="item-params-label">Количество мест на парковке:</span> 2
                     </li>
                             <li class="item-params-list-item">
                                 <span class="item-params-label">Комиссия от клиента:</span> Без комиссии
@@ -140,22 +155,10 @@ export class Home extends Component {
                                 <span class="item-params-label">Мебель:</span> Нет
                     </li>
                             <li class="item-params-list-item">
-                                <span class="item-params-label">Мебель:</span> Нет
-                    </li>
-                            <li class="item-params-list-item">
                                 <span class="item-params-label">Количество мокрых точек:</span> 1
                     </li>
                             <li class="item-params-list-item">
                                 <span class="item-params-label">Мощность, кВт:</span> 35
-                    </li>
-                            <li class="item-params-list-item">
-                                <span class="item-params-label">Доступ:</span> Наземная
-                    </li>
-                            <li class="item-params-list-item">
-                                <span class="item-params-label">Парковка:</span> Нет
-                    </li>
-                            <li class="item-params-list-item">
-                                <span class="item-params-label">Количество мест:</span> 2
                     </li>
                         </ul>
                     </div>
@@ -166,7 +169,6 @@ export class Home extends Component {
                         <li>Ателье одежды</li>
                         <li>Гостиница</li>
                         <li>Медицинский центр</li>
-                        <li>Аптека</li>
                         <li>Аптека</li>
                         <li>Минимаркет</li>
                         <li>Банкомат</li>
