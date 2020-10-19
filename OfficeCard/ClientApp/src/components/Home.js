@@ -1,5 +1,4 @@
 ﻿import React, { Component } from 'react';
-//import { DemoCarousel } from './Carousel';
 import { MyGallery } from './ImagesCarousel';
 import './Home.css'
 
@@ -13,11 +12,10 @@ export class Home extends Component {
                 <h3 align="center">Офис в центре Москвы</h3>
 
                 <div align="center">
-                    {/*<DemoCarousel />*/}
                     <MyGallery />
                 </div>
                 <div className="telephoneNumbers">
-                    <h4>8 916 350 13 60</h4>
+                    <p><h4>8 916 350 13 60</h4> {/* <a href="tel:89162506593">Позвонить</a> */}</p>
                     <h4>8 963 782 62 64</h4>
                 </div>
 
@@ -139,9 +137,6 @@ export class Home extends Component {
                     </li>
                             <li class="item-params-list-item">
                                 <span class="item-params-label">Номер налоговой:</span> 1
-                    </li>
-                            <li class="item-params-list-item">
-                                <span class="item-params-label">Стоимость парковки:</span> Бесплатно
                     </li>
                             <li class="item-params-list-item">
                                 <span class="item-params-label">Юридический адрес:</span> Предоставляется
