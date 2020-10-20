@@ -47,8 +47,8 @@ const images = [
         thumbnail: '/Images/7insRoom.jpg',
     },
     {
-        original: '/Images/7insRoom.jpg',
-        thumbnail: '/Images/7insRoom.jpg',
+        original: '/Images/8Kitchen.jpg',
+        thumbnail: '/Images/8Kitchen.jpg',
     },
     {
         original: '/Images/9InsRoom2.jpeg',
