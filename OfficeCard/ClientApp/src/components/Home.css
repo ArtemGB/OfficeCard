@@ -85,7 +85,7 @@
         color: rgba(0, 0, 0, 0.65);
     }
 
-.telephoneNumbers{
+.telephoneNumbersBlock{
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     border-top: 1px solid #5C5C5C;
@@ -122,4 +122,14 @@
         font-size: 16px;
         line-height: 25px;
     }
+}
+
+.telephoneNumber{
+    margin-top: 8px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.21;
+    color: black;
+    display: block;
 }

@@ -14,9 +14,9 @@ export class Home extends Component {
                 <div align="center">
                     <MyGallery />
                 </div>
-                <div className="telephoneNumbers">
-                    <p><h4>8 916 350 13 60</h4> {/* <a href="tel:89162506593">Позвонить</a> */}</p>
-                    <h4>8 963 782 62 64</h4>
+                <div className="telephoneNumbersBlock">
+                    <a href="tel:+79163501360" className="telephoneNumber">+7 916 350 13 60</a>
+                    <a href="tel:+79637826264" className="telephoneNumber">+7 963 782 62 64</a>
                 </div>
 
 
@@ -122,9 +122,6 @@ export class Home extends Component {
                     </li>
                             <li class="item-params-list-item">
                                 <span class="item-params-label">Минимальный срок:</span> 12 мес.
-                    </li>
-                            <li class="item-params-list-item">
-                                <span class="item-params-label">Арендные каникулы:</span> Нет
                     </li>
                             <li class="item-params-list-item">
                                 <span class="item-params-label">Парковка:</span> Наземная
