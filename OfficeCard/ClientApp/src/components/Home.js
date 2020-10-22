@@ -1,6 +1,8 @@
 ﻿import React, { Component } from 'react';
 import { MyGallery } from './ImagesCarousel';
-import './Home.css'
+import './Home.css';
+//import {MyYaMap} from './YandexMaps';
+//import { YMaps, Map, Marker, MarkerLayout } from 'yandex-map-react';
 
 export class Home extends Component {
     static displayName = Home.name;
@@ -23,7 +25,7 @@ export class Home extends Component {
                 <p align="center"><b><b><h4>161 кв.м. 270 000 в месяц</h4></b></b></p>
                 <p align="center"><b><b><h4>Москва, ЦАО, р-н Басманный, Мясницкая ул., 22/стр1</h4></b></b></p>
                 <div>
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A896068dbad46637504954d82d07b018a97a316e7514bb0f6245ed180c2418e74&amp;width=500&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+                    {/* <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A896068dbad46637504954d82d07b018a97a316e7514bb0f6245ed180c2418e74&amp;width=500&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script> */}
                 </div>
                 <p>
                     <b>Описание:</b> Офис 161 кв.м на ул. Мясницкая  - в шаговой доступности от станций метро
@@ -178,7 +180,7 @@ export class Home extends Component {
                         <li>Кафе</li>
                     </ul>
                 </div>
-            </div>
+            </div >
         );
     }
 }

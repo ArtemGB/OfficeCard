@@ -1,6 +1,7 @@
 ﻿import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
-import "react-image-gallery/styles/css/image-gallery.css";
+//import "react-image-gallery/styles/css/image-gallery.css";
+import "./image-gallery.css";
 const images = [
     {
         original: '/Images/1Street.jpeg',
