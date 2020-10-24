@@ -1,6 +1,7 @@
 ﻿import React, { Component } from 'react';
 import { MyGallery } from './ImagesCarousel';
 import './Home.css';
+import { YMaps, Map, Placemark } from 'react-yandex-maps';
 //import {MyYaMap} from './YandexMaps';
 //import { YMaps, Map, Marker, MarkerLayout } from 'yandex-map-react';
 
@@ -27,6 +28,23 @@ export class Home extends Component {
                 <div>
                     {/* <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A896068dbad46637504954d82d07b018a97a316e7514bb0f6245ed180c2418e74&amp;width=500&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script> */}
                 </div>
+
+                <YMaps>
+                    <div align="center" className="YaMapBlock">
+                        <Map className="YaMap" defaultState={{ center: [55.763457, 37.636024], zoom: 17 }}>
+                            <Placemark
+                                geometry={[55.762145, 37.634470]}
+                                properties={{
+                                    iconCaption: "Мясницкая ул., 22с1"
+                                }}
+                                options={{
+                                    iconColor: "red"
+                                }}
+                            />
+                        </Map>
+                    </div>
+                </YMaps>
+
                 <p>
                     <b>Описание:</b> Офис 161 кв.м на ул. Мясницкая  - в шаговой доступности от станций метро
                     <b>"Чистые пруды"</b>, <b>"Тургеневская"</b>, <b>"Сретенский бульвар"</b>, <b>"Лубянка"</b>. Вход с

@@ -37,6 +37,11 @@
         line-height: 25px;
     }
 
+    .YaMap{
+        width: 80%;
+        height: 60vh;
+    }
+
 }
 
 /*Планшеты*/
@@ -75,6 +80,11 @@
     .item-params {
         font-size: 16px;
         line-height: 25px;
+    }
+
+    .YaMap{
+        width: 80%;
+        height: 60vh;
     }
 }
 
@@ -122,7 +132,18 @@
         font-size: 16px;
         line-height: 25px;
     }
+
+    .YaMap{
+        width: 60%;
+        height: 70vh;
+    }
+
 }
+
+.YaMapBlock{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
 
 .telephoneNumber{
     margin-top: 8px;
