@@ -1,11 +1,9 @@
-﻿
-/*Мобилки*/
-@media (max-width: 768px) {
-    
-    .item-params-label {
-        color: rgba(0,0,0,.65);
-    }
+﻿/*Мобилки*/
 
+@media (max-width: 768px) {
+    .item-params-label {
+        color: rgba(0, 0, 0, .65);
+    }
     .item-params-list-item {
         min-width: 260px;
         padding-bottom: 8px;
@@ -14,7 +12,6 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
-
     .item-params-list {
         -webkit-column-count: 1;
         -moz-column-count: 1;
@@ -25,32 +22,27 @@
         margin-bottom: -8px;
         line-height: 20px;
     }
-
     .item-view-block {
         margin: 0 20px;
         padding: 20px 0;
         border-top: 1px solid #e0e0e0;
     }
-
     .item-params {
         font-size: 16px;
         line-height: 25px;
     }
-
-    .YaMap{
+    .YaMap {
         width: 80%;
         height: 60vh;
     }
-
 }
 
 /*Планшеты*/
+
 @media (min-width: 769px) {
-
     .item-params-label {
-        color: rgba(0,0,0,.65);
+        color: rgba(0, 0, 0, .65);
     }
-
     .item-params-list-item {
         min-width: 260px;
         padding-bottom: 8px;
@@ -59,7 +51,6 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
-
     .item-params-list {
         -webkit-column-count: 1;
         -moz-column-count: 1;
@@ -70,38 +61,33 @@
         margin-bottom: -8px;
         line-height: 20px;
     }
-
     .item-view-block {
         margin: 0 20px;
         padding: 20px 0;
         border-top: 1px solid #e0e0e0;
     }
-
     .item-params {
         font-size: 16px;
         line-height: 25px;
     }
-
-    .YaMap{
+    .YaMap {
         width: 80%;
         height: 60vh;
     }
 }
 
 /*Компы*/
-@media (min-width: 992px) {
 
+@media (min-width: 992px) {
     .item-params-label {
         color: rgba(0, 0, 0, 0.65);
     }
-
-.telephoneNumbersBlock{
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    border-top: 1px solid #5C5C5C;
-    padding-top: 1.5em;
-}
-
+    .telephoneNumbersBlock {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        border-top: 1px solid #5C5C5C;
+        padding-top: 1.5em;
+    }
     .item-params-list-item {
         min-width: 260px;
         padding-bottom: 8px;
@@ -110,7 +96,6 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
-
     .item-params-list {
         -webkit-column-count: 2;
         -moz-column-count: 2;
@@ -121,31 +106,29 @@
         margin-bottom: -8px;
         line-height: 20px;
     }
-
     .item-view-block {
         margin: 0 20px;
         padding: 20px 0;
         border-top: 1px solid #5C5C5C;
     }
-
     .item-params {
         font-size: 16px;
         line-height: 25px;
     }
-
-    .YaMap{
-        width: 60%;
-        height: 70vh;
+    .YaMap {
+        width: 55%;
+        height: 60vh;
     }
-
 }
 
-.YaMapBlock{
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
+.YaMapBlock {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
-.telephoneNumber{
+.telephoneNumber {
     margin-top: 8px;
     text-decoration: none;
     font-size: 28px;
