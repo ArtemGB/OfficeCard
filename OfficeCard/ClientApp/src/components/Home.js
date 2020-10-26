@@ -1,7 +1,7 @@
 ﻿import React, { Component } from 'react';
 import { MyGallery } from './ImagesCarousel';
 import './Home.css';
-import { YMaps, Map, Placemark } from 'react-yandex-maps';
+import { YMaps, Map, Placemark, Button } from 'react-yandex-maps';
 
 export class Home extends Component {
     static displayName = Home.name;
@@ -16,8 +16,19 @@ export class Home extends Component {
                     <MyGallery />
                 </div>
                 <div className="telephoneNumbersBlock">
-                    <a href="tel:+79163501360" className="telephoneNumber">+7 916 350 13 60</a>
-                    <a href="tel:+79637826264" className="telephoneNumber">+7 963 782 62 64</a>
+                    <p><a href="tel:+79163501360" className="telephoneNumber">+7 916 350 13 60</a> <a href="whatsapp://send?phone=79163501360"
+                        style={{
+                            marginLeft: "10px"
+                        }}>
+                        <img src="/Images/whatsappIcon.ico" /></a>
+                    </p>
+                    <p>
+                        <a href="tel:+79637826264" className="telephoneNumber">+7 963 782 62 64</a> <a href="whatsapp://send?phone=79637826264"
+                            style={{
+                                marginLeft: "10px"
+                            }}>
+                            <img src="/Images/whatsappIcon.ico" /></a>
+                    </p>
                 </div>
 
 
@@ -84,32 +95,39 @@ export class Home extends Component {
                 <p>Предоставляется юридический адрес.</p>
                 <p><b>Депозит - от 1 месяца.</b></p>
 
+                <div align="center" style={{
+                    marginBottom: "10px"
+                }}>
+                    <img src="/Images/Scheme.jpg" className="SchemeImg" />
+                </div>
                 <h4>Помещения:</h4>
                 <ul>
                     <li>
-                        <b>Помещение 15</b> – Тамбур за входной дверью
+                        <b>Помещение 1</b> – 85,8 кв.м, 5 окон с видом на Банковский переулок, поделено
+                             на три зоны внутренними перегородками: зона рядом с входной
+                             дверью, зона рецепции, зона общего назначения.
+
                     </li>
                     <li>
-                        <b>Помещение 1</b> – Зона рецепции (зона отдыха и ожидания для посетителей)
-                        80,7 кв.м., 5 окон с видом на Банковский пер..
+                        <b>Помещение 2</b> – 7,3 кв.м. кабинет, без окон.
                     </li>
                     <li>
-                        <b>Помещение 7</b> – кабинет 7,3 кв.м. с окном во внутренний двор
+                        <b>Помещение 3</b> – 16,5 кв.м, кабинет, 2 окна во внутренний двор.
                     </li>
                     <li>
-                        <b>Помещение 7а</b> – кабинет 7,4 кв.м с окном во внутренний двор
+                        <b>Помещение 4</b> – 3,6 кв.м., кухня (без мокрой точки).
                     </li>
                     <li>
-                        <b>Помещение 8</b> –  кабинет 16,4 кв.м. с окном во внутренний двор
+                        <b>Помещение 5</b> – 7,8 кв.м., кабинет, 1 окно во внутренний двор.
                     </li>
                     <li>
-                        <b>Помещения 12, 13, 14</b> – санузлы
+                        <b>Помещения 6</b> – 18,9 кв.м., кабинет, 1 окно во внутренний двор.
                     </li>
                     <li>
-                        <b>Помещение 6</b> – кухня 13,6 кв.м
+                        <b>Помещение 7</b> – серверная комната.
                     </li>
                     <li>
-                        <b>Помещение 11а</b> – серверная комната
+                        <b>Помещения 8, 9, 10</b> – сан.узел (2).
                     </li>
 
                 </ul>

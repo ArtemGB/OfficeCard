@@ -25,7 +25,7 @@
     .item-view-block {
         margin: 0 20px;
         padding: 20px 0;
-        border-top: 1px solid #e0e0e0;
+        border-top: 1px solid #5C5C5C;
     }
     .item-params {
         font-size: 16px;
@@ -34,6 +34,10 @@
     .YaMap {
         width: 80%;
         height: 60vh;
+    }
+    img.SchemeImg{
+        max-width: 80%;
+        height: auto;
     }
 }
 
@@ -82,12 +86,6 @@
     .item-params-label {
         color: rgba(0, 0, 0, 0.65);
     }
-    .telephoneNumbersBlock {
-        margin-top: 1.5em;
-        margin-bottom: 1.5em;
-        border-top: 1px solid #5C5C5C;
-        padding-top: 1.5em;
-    }
     .item-params-list-item {
         min-width: 260px;
         padding-bottom: 8px;
@@ -119,6 +117,10 @@
         width: 55%;
         height: 60vh;
     }
+    img.SchemeImg{
+        max-width: 60%;
+        height: auto;
+    }
 }
 
 .YaMapBlock {
@@ -135,5 +137,12 @@
     font-weight: 700;
     line-height: 1.21;
     color: black;
-    display: block;
+    /* display: block; */
+}
+
+.telephoneNumbersBlock {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-top: 1px solid #5C5C5C;
+    padding-top: 1.5em;
 }

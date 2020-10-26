@@ -57,6 +57,14 @@ const images = [
     {
         original: '/Images/10InsRoom.jpeg',
         thumbnail: '/Images/10InsRoom.jpeg',
+    },
+    {
+        original: '/Images/NightStreet1.jpg',
+        thumbnail: '/Images/NightStreet1.jpg',
+    },
+    {
+        original: '/Images/NightStreet2.jpg',
+        thumbnail: '/Images/NightStreet2.jpg',
     }
 ];
 
