@@ -93,10 +93,10 @@ export class Home extends Component {
     </p>
 
                 <p>Предоставляется юридический адрес.</p>
-                <p><b>Депозит - от 1 месяца.</b></p>
+                <p><b>Страховой задаток - от 1 месяца.</b></p>
 
-                <div align="center" style={{
-                    marginBottom: "10px"
+                <div align="center" className="item-view-block" style={{
+                    marginBottom: "10px",
                 }}>
                     <img src="/Images/Scheme.jpg" className="SchemeImg" />
                 </div>
