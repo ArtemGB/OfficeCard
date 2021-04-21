@@ -25,7 +25,7 @@ export class Home extends Component {
                 страхование, агентство недвижимости, услуги косметологии, микрохирургии, стоматологии,
                 справки, ателье, учебные курсы, адвокатское бюро,
                 нотариальные услуги, рекламное и PR-агенство и т.п."
-                OfficeReference="/FirstOffice"></OfficeBlock>
+                OfficeReference="/SecondOffice"></OfficeBlock>
             </div >
         );
     }
