@@ -1,0 +1,148 @@
+/*Мобилки*/
+
+@media (max-width: 768px) {
+    .item-params-label {
+        color: rgba(0, 0, 0, .65);
+    }
+    .item-params-list-item {
+        min-width: 260px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        page-break-inside: avoid;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .item-params-list {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        column-gap: 15px;
+        -webkit-column-gap: 15px;
+        -moz-column-gap: 15px;
+        margin-bottom: -8px;
+        line-height: 20px;
+    }
+    .item-view-block {
+        margin: 0 20px;
+        padding: 20px 0;
+        border-top: 1px solid #5C5C5C;
+    }
+    .item-params {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .YaMap {
+        width: 80%;
+        height: 60vh;
+    }
+    img.SchemeImg{
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+/*Планшеты*/
+
+@media (min-width: 769px) {
+    .item-params-label {
+        color: rgba(0, 0, 0, .65);
+    }
+    .item-params-list-item {
+        min-width: 260px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        page-break-inside: avoid;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .item-params-list {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        column-gap: 15px;
+        -webkit-column-gap: 15px;
+        -moz-column-gap: 15px;
+        margin-bottom: -8px;
+        line-height: 20px;
+    }
+    .item-view-block {
+        margin: 0 20px;
+        padding: 20px 0;
+        border-top: 1px solid #e0e0e0;
+    }
+    .item-params {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .YaMap {
+        width: 80%;
+        height: 60vh;
+    }
+}
+
+/*Компы*/
+
+@media (min-width: 992px) {
+    .item-params-label {
+        color: rgba(0, 0, 0, 0.65);
+    }
+    .item-params-list-item {
+        min-width: 260px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        page-break-inside: avoid;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .item-params-list {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        column-gap: 15px;
+        -webkit-column-gap: 15px;
+        -moz-column-gap: 15px;
+        margin-bottom: -8px;
+        line-height: 20px;
+    }
+    .item-view-block {
+        margin: 0 20px;
+        padding: 20px 0;
+        border-top: 1px solid #5C5C5C;
+    }
+    .item-params {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .YaMap {
+        width: 55%;
+        height: 60vh;
+    }
+    img.SchemeImg{
+        max-width: 60%;
+        height: auto;
+    }
+}
+
+.YaMapBlock {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.telephoneNumber {
+    margin-top: 8px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.21;
+    color: black;
+    /* display: block; */
+}
+
+.telephoneNumbersBlock {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-top: 1px solid #5C5C5C;
+    padding-top: 1.5em;
+}
