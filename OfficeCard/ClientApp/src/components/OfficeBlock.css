@@ -20,6 +20,11 @@
   margin: 10px
 }
 
+.block:hover
+{
+  background: #eec088;
+}
+
 a.text:active, /* активная/посещенная ссылка */
 a.text:hover,  /* при наведении */
 a.text {
