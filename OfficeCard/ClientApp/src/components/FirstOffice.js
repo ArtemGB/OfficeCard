@@ -9,7 +9,7 @@ export class FirstOffice extends Component {
     render() {
         return (
             <div>
-                <h2 align="center">А Р Е Н Д А / П Р О Д А Ж А</h2>
+                <h2 align="center">А Р Е Н Д А</h2>
                 <h2 align="center">ЛУЧШЕЕ ПРЕДЛОЖЕНИЕ ДЛЯ ВАШЕГО БИЗНЕСА</h2>
                 <h3 align="center">Офис в центре Москвы</h3>
                 <h3 align="center">ЗВОНИТЕ, ЧТОБЫ ДОГОВОРИТЬСЯ!</h3>

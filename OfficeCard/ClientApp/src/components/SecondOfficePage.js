@@ -29,7 +29,7 @@ export class SecondOffice extends Component {
                     </p>
                 </div>
 
-                <p align="center"><b><b><h4>196 КВ.М. ДВУХЭТАЖНЫЙ 425 000 В МЕСЯЦ</h4></b></b></p>
+                <p align="center"><b><b><h4>196 КВ.М. ДВУХЭТАЖНЫЙ 395 000 В МЕСЯЦ</h4></b></b></p>
                 <p align="center"><b><b><h4>МОСКВА, МЯСНИЦКАЯ УЛИЦА, ДОМ 24/7</h4></b></b></p>
 
                 <YMaps>
@@ -104,7 +104,7 @@ export class SecondOffice extends Component {
                                 <span class="item-params-label">Налог УСН:</span> (упрощённая система налогообложения)
                             </li>
                             <li class="item-params-list-item">
-                                <span class="item-params-label">Обеспечительный платеж:</span> 425 000 ₽
+                                <span class="item-params-label">Обеспечительный платеж:</span> 395 000 ₽
                             </li>
                             <li class="item-params-list-item">
                                 <span class="item-params-label">Коммунальные платежи:</span> Включены
